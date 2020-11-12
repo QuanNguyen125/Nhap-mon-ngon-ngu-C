@@ -7,13 +7,14 @@ int main(void) {
   num = 5;
   // hien thi bien num ra man hinh
   printf("Bien num co gia tri;  %d",num);
-  // khai bao bien x kieu char
+  // khai bao bien % kieu char
   char c;
   // khoi tao gia tri cho bien c
   c = 'a';
-  // hien thi bien cra man hinh
+  // hien thi bien c ra man hinh
   printf("Bien num co gia tri;  %c", c);
-  // Hien thi dong: Bien num = 5 va bien c = a 
+  // Hien thi dong: Bien num = 5 va bien c = a
+  printf("Bien num = %d va bien c = %c\n", num, c);
   getchar();
   return 0;
 }
