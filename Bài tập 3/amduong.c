@@ -2,19 +2,20 @@
 
 int main(void) {
   // khai bao bien
-  int a;
+  int n;
   // nhap xuat gia tri
-  printf("Nhap a = ");
-  scanf("%d",&a);
-  // kiem tra a la duong hay am
-  if(a > 0){
-    printf("%d la so duong",a);
-  } else if(a==0) { 
-    printf("%d bang khong",a);   
-  } else {
-    printf("%d la so am",a);
+  printf("Nhap n = ");
+  scanf("%d",&n);
+  // kiem tra n la so chan le bang 0
+  if(n > 0){
+    if(n % 2 == 0){
+    printf("%d la so chan",n);
+  } else{
+    printf("%d la so le",n);
+    }
+  } else if(n == 0){
+    printf("%d bang khong",n);
   }
-  
     
   return 0;
 }
