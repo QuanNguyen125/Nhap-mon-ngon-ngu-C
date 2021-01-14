@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-  int i=0;
+  int b=0;
   //khai bao mang
   int arry[4]={3,5,7,2};
-  for(int i = 0; i < 4 ; i++)
-  printf("%d\n",arry[i]);
+  for(int b = 0; b < 4 ; b++)
+  printf("%d\n",arry[b]);
 
   int tong;
   // cong thuc tinh tong
