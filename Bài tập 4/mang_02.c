@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(void) {
-  //khai bao mang a kich thuoc n
-  int a[100];
-  int n;
-  printf("Nhap kich thuoc n cho mang a: ");
-  printf("nhap tung phan tu a kich thuoc n: ");
-  //khai bao mang
-  int arry[100];
-  for(int b = 0; b < 100 ; b++)
-  printf("%d\n",arry[b]);
+int main()
+{
+    int n, sum = 0, c, a[100];
 
-  int tong;
-  // cong thuc tinh tong
-  tong = 100;
-  printf("tong=%d",tong);
-  return 0;
+    printf("Enter the number of integers: ");
+    scanf("%d", &n);
+    printf("\nEnter %d integers \n", n);
+
+    for(c = 0; c < n; c++)
+    {
+        scanf("%d", &a[c]);
+        sum += a[c];    
+    }
+
+    printf("\nSum = %d\n", sum);
+    return 0;
 }
