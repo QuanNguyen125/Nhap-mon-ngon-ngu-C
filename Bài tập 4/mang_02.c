@@ -4,9 +4,9 @@ int main()
 {
     int n, sum = 0, c, a[100];
 
-    printf("Enter the number of integers: ");
+    printf("nhap phan tu a: ");
     scanf("%d", &n);
-    printf("\nEnter %d integers \n", n);
+    printf("\n nhap %d so nguyen \n", n);
 
     for(c = 0; c < n; c++)
     {
