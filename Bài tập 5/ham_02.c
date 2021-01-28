@@ -1,3 +1,5 @@
+
+  
 //****************************************CODE**********
 //Khoi khai bao
 #include<stdio.h>
@@ -18,6 +20,6 @@ int main(){
 
 // khoi dinh nghia ham
 int kiem_tra_am_duong(int n){
-  return 1;
+  return n;
 }
 //*************************END CODE*****************************
