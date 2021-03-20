@@ -8,9 +8,7 @@ int UCLN(int a, int b) {
 int main() 
 {
  int a, b;
-    printf("Nhap a = ");
-    scanf("%d", &a);
-    printf("Nhap b = ");
-    scanf("%d", &b);
+    printf("Nhap a = ");scanf("%d", &a);
+    printf("Nhap b = ");scanf("%d", &b);
     printf("UCLN cua a va b la: %d", UCLN(a, b));
 }
