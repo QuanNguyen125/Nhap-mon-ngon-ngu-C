@@ -8,7 +8,7 @@ int main() {
    for(t=1;t<n;t++){
      tong += (float) t/t;
    }
-   printf("1+1/2+1/3+...+1+1/n=%0.1f",tong);
+   printf("1+1/2+1/3+...+1/n=%0.1f",tong);
    return 0;
 }
    
